@@ -5,6 +5,10 @@ Beware that HTML5 Notifications are not supported by all browsers yet, you can g
 
 Create a new free channel at [ScaleDrone.com](https://www.scaledrone.com/) or use the one from the example for testing.
 
+### Example
+
+[http://scaledrone.github.io/html5-javascript-push-notifications/](http://scaledrone.github.io/html5-javascript-push-notifications/)
+
 ### Running
 
 Clone this repository and run it using your favorite http server.
