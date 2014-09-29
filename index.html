@@ -2,12 +2,22 @@
 
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>ScaleDrone HTML5 JavaScript push notifications</title>
-	<script type='text/javascript' src='https://api2.scaledrone.com/assets/scaledrone.min.js'></script>
+    <meta charset="utf-8">
+    <title>ScaleDrone HTML5 JavaScript push notifications</title>
+    <script type='text/javascript' src='https://api2.scaledrone.com/assets/scaledrone.min.js'></script>
 </head>
 
 <body>
-	<script src="main.js"></script>
+    You can push a notification from Terminal using cURL:
+
+    <pre>
+        <code>
+            curl --include \
+                 --request POST \
+                 --data-binary 'Buy cheese and bread for breakfast.' \
+                 https://api2.scaledrone.com/dIVCxD01G4x1sDtC/notifications/publish
+         </code>
+    </pre>
+    <script src="main.js"></script>
 </body>
 </html>
