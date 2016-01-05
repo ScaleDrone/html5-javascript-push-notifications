@@ -17,6 +17,6 @@ You can push a notification from Terminal using `cURL`:
 ```
 curl --include \
      --request POST \
-     --data-binary 'Buy cheese and bread for breakfast.' \
+     --data-binary 'msg=Buy cheese and bread for breakfast.' \
      https://api2.scaledrone.com/dIVCxD01G4x1sDtC/notifications/publish
 ```
