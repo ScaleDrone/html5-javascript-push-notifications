@@ -1,5 +1,5 @@
 Push.config({
-  serviceWorker: 'bower_components/push.js/bin/serviceWorker.min.js',
+  serviceWorker: './bower_components/push.js/bin/serviceWorker.min.js',
 });
 
 getPermission(function() {
