@@ -1,3 +1,7 @@
+Push.config({
+  serviceWorker: 'bower_components/push.js/bin/serviceWorker.min.js',
+});
+
 getPermission(function() {
   var drone = new ScaleDrone('KtJ2qzn3CF3svSFe');
 
