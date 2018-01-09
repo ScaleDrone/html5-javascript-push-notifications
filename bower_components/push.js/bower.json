@@ -1,0 +1,21 @@
+{
+  "name": "push.js",
+  "description": "A compact, cross-browser solution for the Javascript Notifications API",
+  "main": "bin/push.js",
+  "authors": [
+    "Tyler Nickerson"
+  ],
+  "license": "MIT",
+  "homepage": "https://pushjs.org",
+  "ignore": [
+    "**/.*",
+    "coverage",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "src",
+    "build",
+    "*.lock",
+    "*.json"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bower": "^1.8.2",
+    "global": "^4.3.2",
+    "http-server": "^0.10.0"
+  }
+}

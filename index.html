@@ -3,8 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>ScaleDrone HTML5 JavaScript push notifications</title>
-    <script type='text/javascript' src='https://api2.scaledrone.com/assets/scaledrone.min.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.scaledrone.com/assets/favicon.png"></link>
+    <title>Scaledrone HTML5 JavaScript push notifications</title>
+    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
 </head>
 
 <body>
@@ -12,12 +14,13 @@
 
     <pre>
         <code>
-            curl --include \
-                 --request POST \
-                 --data-binary 'msg=Buy cheese and bread for breakfast.' \
-                 https://api2.scaledrone.com/dIVCxD01G4x1sDtC/notifications/publish
+curl -H "Content-Type: application/json" \
+     -X POST \
+     -d '{"title":"Important!", "body":"Dogecoin is going to the moon!", "icon":"logo.png"}' \
+     https://api2.scaledrone.com/KtJ2qzn3CF3svSFe/notifications/publish
          </code>
     </pre>
+    <script src="bower_components/push.js/bin/push.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
